@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sm.quranread.ListActivity"
+    android:background="#d3f7aa">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000000"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="الفاتحه "
+        android:layout_margin="10dp"
+        android:id="@+id/soura"
+        android:textSize="25dp"
+        android:layout_alignParentRight="true"
+        android:textStyle="bold"
+        android:background="#4fe930" />
+
+</RelativeLayout>
